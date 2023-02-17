@@ -455,7 +455,7 @@ margin-right: 40px;
     letter-spacing: 0.02em;
     color: var(--color_cornflower);
 }
-.text-cosial{
+.text-social{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -494,10 +494,11 @@ margin-right: 40px;
    padding-bottom: 120px;
 }
 .portfolio-div{
-    padding: 0px 16px;
     padding: 32px 16px;
     border-top: 0;
-    border: 1px solid var(--color_cornflower);
+    border-right: 1px solid var(--color_cornflower);
+    border-bottom: 1px solid var(--color_cornflower);
+    border-left: 1px solid var(--color_cornflower);
 }
 .filter {
     display: flex;
@@ -568,4 +569,15 @@ margin-right: 40px;
 
 .portfolio-text:hover,
 .portfolio-text:focus {
-    color: var(--color_ocean);}
+    color: var(--color_ocean);
+}
+
+.portfolio-div:hover,
+.portfolio-div:focus {
+    box-shadow: 
+    0px 1px 6px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+   
